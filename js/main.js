@@ -114,49 +114,49 @@ window.addEventListener('scroll', fadeInOnScroll);
 //If you want to add more images, add the link name and URL image URL in the array list below.
 	const images_list = [
 {
-    "url": "img/slider1.jpg",
+    "url": "img/slider1.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider2.jpg",
+    "url": "img/slider2.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider3.jpg",
+    "url": "img/slider3.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider4.jpeg",
+    "url": "img/slider4.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider5.jpg",
+    "url": "img/slider5.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider6.jpg",
+    "url": "img/slider6.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider7.jpg",
+    "url": "img/slider7.webp",
     "alt": "",
     "name": "",
     "link": ""
 },
 {
-    "url": "img/slider8.jpg",
+    "url": "img/slider8.webp",
     "alt": "",
     "name": "",
     "link": ""
