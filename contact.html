@@ -190,7 +190,7 @@ font-size: 4em;
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="text-center mb-4">We'd love to hear from you! Please feel free to contact us with any questions, concerns, or inquiries you may have. Our team is dedicated to providing exceptional customer service and ensuring that every client is satisfied with our work.</p>
-                    <form name="submit-to-google-sheet">
+                    <form  action="https://formspree.io/f/xeqbaabv" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -315,25 +315,6 @@ font-size: 4em;
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwZOH8cgaSK5FwtM0HBjfVAcKG5LYkcirqPl7O9uQ9GN-oOzOL8HLtwH97wXIMzIoG1/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-             msg.innerHTML = "Thank You ! Your Message Has Been Sent."
-             setTimeout(function(){
-                msg.innerHTML = ""
-             }, 5000)
-             form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
